@@ -18,5 +18,8 @@ class StringCalculatorShould {
     public void string_with_single_number_should_return_number_as_int() throws Exception {
         assertEquals(stringCalculator.add("1"),1);
     }
+    public void twoNumbersCommaDelimitedReturnSum()throws Exception {
+       	assertEquals(stringCalculator.add("1,2"),3);
+       }
    
 }
